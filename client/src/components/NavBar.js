@@ -10,9 +10,11 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="dark__toggle">
+      <h4>Dark</h4>
         <div
-          onClick={toggleMode}
-          className={darkMode ? 'toggle toggled' : 'toggle'}
+        
+          onClick={toggleMode} 
+          className={darkMode ? 'toggle toggled' : 'toggle'} data-testid = " nav"
         />
       </div>
     </nav>
