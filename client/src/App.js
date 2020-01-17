@@ -2,7 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import './App.css';
 import Players from './Players';
-
+import NavBar from './components/NavBar';
 class App extends React.Component {
   // set original state 
   state = {
@@ -31,6 +31,7 @@ class App extends React.Component {
 
     return (
       <div className="App">
+        <NavBar/>
         <h1>Women's World Cup Search Ranks</h1>
         
       
