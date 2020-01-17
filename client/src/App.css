@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
   color:rgb(48, 0, 59);
 }
@@ -23,6 +23,58 @@
   height: 70px;
   justify-content: space-between;
   padding: 0 3%;
+  width: 100%;
+  -webkit-box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
+  box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
+}
+
+.dark__toggle {
+  background: rgb(21, 17, 226);
+  border-radius: 50px;
+  border: 1px solid black;
+  height: 20px;
+  position: relative;
+  width: 40px;
+}
+
+.toggle {
+  background: #0e151d;
+  border-radius: 50px;
+  height: 18px;
+  position: absolute;
+  transition: 0.2s;
+  width: 20px;
+}
+
+.toggled {
+  left: 20px;
+} */
+
+.App {
+  text-align: center;
+  color:rgb(48, 0, 59);
+}
+
+
+
+.dark {
+  color: rgb(7, 3, 3);
+  background-color: #00122e;
+
+}
+
+.nav {
+  background-color: #1F2022;
+  border: none;
+}
+
+.navbar {
+  align-items: center;
+  border-bottom: 1px solid rgb(209, 14, 14);
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
   width: 100%;
   -webkit-box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
   -moz-box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);

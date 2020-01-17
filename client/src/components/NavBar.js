@@ -9,8 +9,8 @@ const Navbar = () => {
  
   return (
     <nav className="navbar">
+          <h4>Dark</h4>
       <div className="dark__toggle">
-      <h4>Dark</h4>
         <div
         
           onClick={toggleMode} 
