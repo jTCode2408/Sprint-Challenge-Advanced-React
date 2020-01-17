@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import './App.css';
+import Players from './Players';
 
 class App extends React.Component {
   // set original state 
@@ -35,6 +36,7 @@ class App extends React.Component {
       
         <div className="players">
         {/*return player card with state set*/}
+        <Players players={this.state.players}/>
         </div>
       </div>
     );
