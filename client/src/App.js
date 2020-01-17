@@ -1,26 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
+import axios from 'axios';
 import './App.css';
 
-function App() {
+class App extends React.Component() {
+
+//set original state
+
+
+  componentDidMount(){
+//axios call
+//set state from response
+
+
+  }
+
+
+  render(){
   return (
-    <div className="App">
+    <div>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>
+          Women's World Cup Search Rank's
+        </h1>
+        
       </header>
+      <div className = "container">
+
+{/*hold player card with new state*/}
+      </div>
     </div>
   );
+  }
 }
 
 export default App;
